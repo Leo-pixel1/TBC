@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de TBC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Pantalla de Inicio -->
+    <div class="splash-screen" id="splash-screen">
+        <img src="TBC5.png" alt="Imagen de TBC" class="splash-image">
+        <button class="start-button" onclick="startApp()">Comenzar</button>
+    </div>
+
+    <!-- Cuadrícula de Cuadros -->
+    <div class="grid hidden" id="grid">
+        <div class="card" onclick="toggleExpand(this)">
+            <div class="front">¿Qué es la tuberculosis?</div>
+            <div class="back">La tuberculosis es una enfermedad infecciosa causada por la bacteria del Bacilo de Koch, que afecta principalmente los pulmones y se contagia por el aire.</div>
+        </div>
+        <div class="card" onclick="toggleExpand(this)">
+            <div class="front">¿Cómo se contagia?</div>
+            <div class="back">Se transmite a través del aire cuando una persona con TBC activa en los pulmones tose, estornuda o habla, dispersando las bacterias.</div>
+        </div>
+        <div class="card" onclick="toggleExpand(this)">
+            <div class="front">Síntomas de la tuberculosis</div>
+            <div class="back">Los síntomas comunes incluyen tos persistente, fiebre, sudoración nocturna y pérdida de peso.</div>
+        </div>
+        <div class="card" onclick="toggleExpand(this)">
+            <div class="front">Medidas de prevención</div>
+            <div class="back">Cubrirse al toser, usar mascarillas, y buena ventilación son esenciales para prevenir la TBC.</div>
+        </div>
+        <div class="card" onclick="toggleExpand(this)">
+            <div class="front">Diagnóstico</div>
+            <div class="back">Se realiza mediante pruebas como la prueba cutánea de tuberculina y el examen de esputo.</div>
+        </div>
+        <div class="card" onclick="toggleExpand(this)">
+            <div class="front">Vacunación</div>
+            <div class="back">La vacuna BCG es eficaz para prevenir formas graves de tuberculosis en niños.</div>
+        </div>
+        <div class="card" onclick="toggleExpand(this)">
+            <div class="front">Rol de la institución educativa</div>
+            <div class="back">Las escuelas pueden ayudar a sensibilizar sobre la TBC y promover la prevención entre los estudiantes.</div>
+        </div>
+        <div class="card" onclick="toggleExpand(this)">
+            <div class="front">Estudio de contactos</div>
+            <div class="back">Implica identificar y examinar a personas en contacto con alguien que tenga TBC activa.</div>
+        </div>
+        <div class="card" onclick="toggleExpand(this)">
+            <div class="front">Mitos sobre tuberculosis</div>
+            <div class="back">La TBC no se transmite por compartir utensilios o por contacto casual, como dar la mano.</div>
+        </div>
+        <div class="card" onclick="toggleExpand(this)">
+            <div class="front">Medidas de apoyo para estudiantes</div>
+            <div class="back">Brindar apoyo psicológico y académico a estudiantes que padecen TBC es crucial.</div>
+        </div>
+        <div class="card" onclick="toggleExpand(this)">
+            <div class="front">Estigma y discriminación</div>
+            <div class="back">Es importante luchar contra el estigma y la discriminación hacia personas con TBC.</div>
+        </div>
+        <div class="card" onclick="toggleExpand(this)">
+            <div class="front">Fuentes de información</div>
+            <div class="back">Ministerio de Salud. Dirección General de Intervenciones
+Estratégicas en Salud Pública. Dirección Ejecutiva de Promocion de la Salud. - 1 ed. - Lima: Ministerio de
+Salud; 2019.</div>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/V3RRuVJ7Lw4?si=kVwbTV-bnw-TLeCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
